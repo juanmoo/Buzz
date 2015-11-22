@@ -418,7 +418,7 @@ public class Buzzer extends JFrame implements KeyListener{
 		//Display Window
 		
 		Buzzer window = new Buzzer(t1,t2);
-		window.setSize(700,500);
+		window.setSize(900,500);
 		//window.pack();
 		window.setVisible(true);
 		window.setDefaultCloseOperation(EXIT_ON_CLOSE);
