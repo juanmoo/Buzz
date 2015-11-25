@@ -418,7 +418,7 @@ public class Buzzer extends JFrame implements KeyListener{
 		//Display Window
 		
 		Buzzer window = new Buzzer(t1,t2);
-		window.setSize(900,500);
+		window.setSize(100,550);
 		//window.pack();
 		window.setVisible(true);
 		window.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -690,6 +690,10 @@ public class Buzzer extends JFrame implements KeyListener{
             no.play();
 
          }
+     if (key == KeyEvent.VK_D) {
+		EasySound dumb = new EasySound("dumb.wav");
+		dumb.play();
+	}
 
 	    
 	}

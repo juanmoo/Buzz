@@ -63,7 +63,7 @@ public class EasySound
     catch (LineUnavailableException ex)
     {
       System.out.println("*** Audio line unavailable ***");
-      System.exit(1);
+     // System.exit(1);
     }
 
     line.start();
