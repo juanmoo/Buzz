@@ -118,7 +118,7 @@ public class Buzzer extends JFrame implements KeyListener{
 		
 		
 	
-		gbc.insets = new Insets(10,100,0,0);
+		gbc.insets = new Insets(2000,100,0,0);
       
       //Question Number
       
